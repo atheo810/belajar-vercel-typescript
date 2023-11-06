@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function DashboardPage() {
   return (
     <>
-      <h1>testing dari dashboard</h1>
+      <h1 className="">testing dari dashboard</h1>
       <Image src="/eris.jpg" alt="Gambar eris" width={800} height={800} />
     </>
   );
