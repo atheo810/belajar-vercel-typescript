@@ -4,7 +4,7 @@ import "tailwindcss";
 export default function Navbar() {
   return (
     <nav className="flex flex-row">
-      <ul>
+      <ul className="no-underline">
         <li className="basis-1/2">
           <Link href="/dashboard">Dashboard</Link>
         </li>
