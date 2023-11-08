@@ -4,7 +4,7 @@ import "./globals.css";
 
 export default function Home() {
   return (
-    <div className="relative z-0">
+    <div className="absolute top-0, z-10">
       <Image
         width={800}
         height={500}
