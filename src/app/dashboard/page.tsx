@@ -8,9 +8,16 @@ export const metadata: Metadata = {
 
 export default function DashboardPage() {
   return (
-    <>
-      <h1 className="">testing dari dashboard</h1>
-      <Image src="/eris.jpg" alt="Gambar eris" width={800} height={800} />
-    </>
+    <div className="banner-about min-h-[700px] flex justify-center items-center relative">
+      <div className="banner-img absolute min-h-[700px] bg-banner-image bg-cover w-[100%] bg-fixed bg-no-repeat brightness-50 h-[100%]"></div>
+      <span className="banner-text z-20">
+        <h1>
+          <span className="text-hijau font-sans text-[59px] text-white">
+            Disini Kita menulis judul
+          </span>
+        </h1>
+        <p>text</p>
+      </span>
+    </div>
   );
 }
